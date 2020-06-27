@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "route": "/test-me",
+      "serve": "/index.html",
+      "statusCode": 401
+    },
+    {
+        "route": "/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      }
+  ]
+}
